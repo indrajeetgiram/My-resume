@@ -1,0 +1,32 @@
+.blog-header {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+}
+
+.blog-post {
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.blog-post:hover {
+    background-color: #f8f9fa;
+}
+
+.blog-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-clamp: 2;
+    box-orient: vertical;
+}
